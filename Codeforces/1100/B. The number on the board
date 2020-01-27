@@ -1,0 +1,21 @@
+#https://codeforces.com/contest/835/problem/B
+
+k=int(input())
+n=input()
+s=0
+for i in range(len(n)):
+    s+=int(n[i])
+if s>=k:
+    print(0)
+else:
+    l=[*n]
+    l.sort()
+    m=k-s
+    i=0
+    while 1:
+        a=9-int(l[i])
+        m-=a
+        i+=1
+        if m<=0:
+            break
+    print(i)
