@@ -1,3 +1,5 @@
+#https://codeforces.com/problemset/problem/263/A
+
 #include<bits/stdc++.h>
 #define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); cout.precision(30);
 #define ll long long
