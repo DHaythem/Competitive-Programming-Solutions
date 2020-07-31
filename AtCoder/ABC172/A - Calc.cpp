@@ -1,3 +1,5 @@
+//https://atcoder.jp/contests/abc172/tasks/abc172_a
+
 #include<bits/stdc++.h>
 #define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); cout.precision(30);
 #define ll long long
