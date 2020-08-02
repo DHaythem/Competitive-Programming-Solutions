@@ -17,3 +17,7 @@ int main()
     }
     return cout<<-1,0;
 }
+/*Notice that "X is a multiple of K" means that x % k == 0.
+    We can use modular arithmetic (modulo K) to find possible remainders.
+    Adding another 7 to the end of X is the same as x * 10 + 7.
+    After K iterations you don't get a 0, that means there's no answer, because there's only K different remainders modulo K.*/
