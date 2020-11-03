@@ -9,7 +9,7 @@ using namespace std;
 int main()
 {
     IOS;
-    ll n,s,f=1;
+    ll n,s;
     cin>>n;
     ll x[n],y[n];
     for(int i=0;i<n;i++) cin>>x[i]>>y[i];
@@ -19,14 +19,11 @@ int main()
                 s=x[i]*(y[j]-y[k])+x[j]*(y[k]-y[i])+x[k]*(y[i]-y[j]);
                 if(s==0){
                     cout<<"Yes";
-                    f=0;
-                    break;
+                    return 0;
                 }
             }
-            if(f==0) break;
         }
-        if(f==0) break;
     }
-    if(f) cout<<"No";
+    cout<<"No";
     return 0;
 }
