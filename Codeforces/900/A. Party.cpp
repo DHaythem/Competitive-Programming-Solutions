@@ -6,7 +6,7 @@ using namespace std;
 #define max(a,b) (a>b? a : b)
 
 int main(){
-    IOS;
+	IOS;
 	int n,k,c,mx=0;
 	cin>>n;
 	int a[2001];
@@ -22,4 +22,5 @@ int main(){
         mx=max(mx,c);
     }
 	cout<<mx;
+	return 0;
 }
